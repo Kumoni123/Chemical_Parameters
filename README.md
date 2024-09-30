@@ -5,7 +5,7 @@ Descomentar el modelo KNN y comentar el modelo LogisticRegression y viceversa pa
 
 ## 2. Airflow
 
-Instalar los requerimientos antes de ejecutar levantar el docker de Airflow.
+Instalar los requerimientos antes de levantar el docker de Airflow.
 
 ## 3. Archivo .bat
 
