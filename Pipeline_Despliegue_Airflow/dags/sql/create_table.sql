@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS sales_db (
+    ddate DATE NON NULL ,
+    store VARCHAR(255) NON NULL,
+    sales FLOAT NOT NULL
+)

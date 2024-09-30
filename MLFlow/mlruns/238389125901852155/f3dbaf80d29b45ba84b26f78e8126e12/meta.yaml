@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Repositorio_Belyeud/Proyecto%20Final/DIAGNOSTICO%20DE%20CONTAMINACION/PQ/mlruns/238389125901852155/f3dbaf80d29b45ba84b26f78e8126e12/artifacts
+end_time: 1727645564529
+entry_point_name: ''
+experiment_id: '238389125901852155'
+lifecycle_stage: active
+run_id: f3dbaf80d29b45ba84b26f78e8126e12
+run_name: bald-fawn-661
+run_uuid: f3dbaf80d29b45ba84b26f78e8126e12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727645559558
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Repositorio_Belyeud/Proyecto%20Final/DIAGNOSTICO%20DE%20CONTAMINACION/PQ/mlruns/238389125901852155/b1afbe1666fc4ec490094cf014719c13/artifacts
+end_time: 1727646843489
+entry_point_name: ''
+experiment_id: '238389125901852155'
+lifecycle_stage: active
+run_id: b1afbe1666fc4ec490094cf014719c13
+run_name: luminous-snail-975
+run_uuid: b1afbe1666fc4ec490094cf014719c13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727646831000
+status: 3
+tags: []
+user_id: HP

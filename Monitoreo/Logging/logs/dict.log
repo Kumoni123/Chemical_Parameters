@@ -1,0 +1,29 @@
+[ERROR|51917382|64] 2024-09-29 23:53:08-0500: No se encontró la data
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_40252/51917382.py", line 62, in main
+    df_new = pd.read_csv('data/new_data.csv', index_col=[0],parse_dates=[0])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 950, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 605, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1442, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1735, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 856, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/new_data.csv'
+[ERROR|51917382|78] 2024-09-29 23:53:08-0500: Fallo en el preprocesamiento
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_40252/51917382.py", line 69, in main
+    xarray = sc.fit_transform(np.array(df_new))
+UnboundLocalError: local variable 'df_new' referenced before assignment
+[ERROR|51917382|90] 2024-09-29 23:53:08-0500: Fallo en la predicción
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_40252/51917382.py", line 85, in main
+    y_pred = model_kc.predict(xarray)
+UnboundLocalError: local variable 'xarray' referenced before assignment
